@@ -1,0 +1,8 @@
+# client.toml
+[client]
+remote_addr = "xxxxx.xx:2333" # 服务器的地址。端口必须与 `server.bind_addr` 中的端口相同。
+
+[client.services.xxxx]
+token = "xxxx"                # 必须与服务器相同以通过验证
+local_addr = "127.0.0.1:xxxx" # 需要被转发的服务的地址
+

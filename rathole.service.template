@@ -1,0 +1,11 @@
+[Unit]
+Description=Rathole
+
+[Service]
+ExecStart=[PATH]/rathole client.toml
+WorkingDirectory=[PATH]
+Restart=always
+
+
+[Install]
+WantedBy=multi-user.target
