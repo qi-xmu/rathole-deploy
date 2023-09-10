@@ -1,0 +1,7 @@
+# server.toml
+[server]
+bind_addr = "0.0.0.0:2333" # `2333` 配置了服务端监听客户端连接的端口
+
+[server.services.xxxx]
+token = "xxxx"             # 用于验证的 token
+bind_addr = "0.0.0.0:xxxx" # `xxxx` 配置了将 `xxxx` 暴露给互联网的端口
