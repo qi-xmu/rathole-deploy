@@ -5,7 +5,7 @@ CMD=$PWD
 echo $CMD
 
 ## 修改模板文件
-RATHOLE=rathole-server.service
+RATHOLE=rathole-client.service
 cp rathole.service.template $RATHOLE
 SED='s|\[PATH\]|'$CMD'|g'
 echo $SED
